@@ -1,52 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Skilled e-learning landing page</title>
-</head>
-<body>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
 
-  Get Started
-
-  Maximize skill, minimize budget
-
-  Our modern courses across a range of in-demand skills will give you the 
-  knowledge you need to live the life you want.
-
-  Get Started
-
-  Check out our most popular courses!
-
-  Animation
-  Learn the latest animation techniques to create stunning motion 
-  design and captivate your audience.
-  Get Started
-
-  Design
-  Create beautiful, usable interfaces to help shape the future of 
-  how the web looks.
-  Get Started
-
-  Photography
-  Explore critical fundamentals like lighting, composition, and focus 
-  to capture exceptional photos.
-  Get Started
-
-  Crypto
-  All you need to know to get started investing in crypto. Go from beginner 
-  to advanced with this 54 hour course.
-  Get Started
-
-  Business
-  A step-by-step playbook to help you start, scale, and sustain your business 
-  without outside investment.
-  Get Started
-
-  Get Started
-
-</body>
+    <title>Frontend Mentor | Skilled e-learning landing page</title>
+  </head>
+  <body>
+    <nav class="nav">
+      <img src="./assets/logo-dark.svg" alt="Skilled's logo." />
+      <button class="button">Get Started</button>
+    </nav>
+    <header class="header">
+      <h1>Maximize skill, minimize budget</h1>
+      <p>
+        Our modern courses across a range of in-demand skills will give you the
+        knowledge you need to live the life you want.
+      </p>
+      <button class="button red-gradient">Get Started</button>
+      <img
+        src="./assets/image-hero-mobile.webp"
+        alt="Woman blowing on a hot drink. Stats on either side of the image showing 29,000 members and 1,451 course hours."
+      />
+    </header>
+    <main>
+      <h2>Check out our most popular courses!</h2>
+      <article class="course">
+        <img
+          src="./assets/icon-animation.svg"
+          alt="Logo for Animation course. A person running."
+        />
+        <!-- Animation Course Card -->
+        <h3 class="course__title">Animation</h3>
+        <p class="course__description">
+          Learn the latest animation techniques to create stunning motion design
+          and captivate your audience.
+        </p>
+        <a href="#" class="course__cta">Get Started</a>
+      </article>
+      <!-- Design Course Card -->
+      <article class="course">
+        <img src="./assets/icon-design.svg" alt="Logo for Design course." />
+        <h3 class="course__title">Design</h3>
+        <p class="course__description">
+          Create beautiful, usable interfaces to help shape the future of how
+          the web looks.
+        </p>
+        <a href="#" class="course__cta">Get Started</a>
+      </article>
+      <!-- Photography Course Card -->
+      <article class="course">
+        <img
+          src="./assets/icon-photography.svg"
+          alt="Logo for Photography course. A camera."
+        />
+        <h3 class="course__title">Photography</h3>
+        <p class="course__description">
+          Explore critical fundamentals like lighting, composition, and focus to
+          capture exceptional photos.
+        </p>
+        <a href="#" class="course__cta">Get Started</a>
+      </article>
+      <!-- Crypto Course Card -->
+      <article class="course">
+        <img src="./assets/icon-crypto.svg" alt="Logo for Crypto course." />
+        <h3 class="course__title">Crypto</h3>
+        <p class="course__description">
+          All you need to know to get started investing in crypto. Go from
+          beginner to advanced with this 54 hour course.
+        </p>
+        <a href="#" class="course__cta">Get Started</a>
+      </article>
+      <!-- Business Course Card -->
+      <article class="course">
+        <img
+          src="./assets/icon-business.svg"
+          alt="Logo for Business course. A shopping bag."
+        />
+        <h3 class="course__title">Business</h3>
+        <p class="course__description">
+          A step-by-step playbook to help you start, scale, and sustain your
+          business without outside investment.
+        </p>
+        <a href="#" class="course__cta">Get Started</a>
+      </article>
+    </main>
+    <footer>
+      <img src="./assets/logo-light.svg" alt="Skilled's logo." />
+      <button class="button purple-gradient">Get Started</button>
+    </footer>
+  </body>
 </html>
